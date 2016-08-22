@@ -1,0 +1,252 @@
+.clear{display:block; overflow:hidden}
+body{width:100%;min-width:1262px}
+.red{color:#f50;}
+.hearder{width: 100%; margin: 0 auto;}
+a:hover{color:#f50}
+a{color:#000}
+//头部start
+.h_top{
+	background: #fafafa; width:100%;  border-bottom: 2px solid #eee;
+	ul:first-child{
+		float: left;
+		li{
+			float:left;line-height: 34px; text-indent:14px;
+			a{
+				line-height: 34px; text-indent:14px;display:block; height:18px;
+				color:#000;
+			}
+		}
+		li:first-child{
+			width:52px; height:16px;background:url(../img/idnex_icon.png) -251px -52px;
+			 margin:10px 0 0 32px; padding-right:12px; border-right:1px solid #ddd;text-indent:0px
+		}
+		.h_top_li1{
+			width:64px; height:18px;background:url(../img/idnex_icon.png) -248px -76px; 
+			margin:8px 0 0 14px;
+		}
+	}
+	ul:last-child{
+		float:right;
+		em{
+			font-weight:normal; float:right; padding-left:13px;color:#ddd;
+		}
+		li{
+			float:left; padding-left: 13px;margin-top:9px;height:16px;
+			a{
+				float:left; height:16px;color:#000;
+			}
+			a:hover{
+				color:#f50
+			}
+		}
+		li:first-child{
+			position:relative;
+			.h_top_li1_a1{
+				text-indent:10px;
+				span:first-child{
+					float:left; width:18px; height:15px; background:url(../img/idnex_icon.png) -251px -101px;
+				}
+				span:last-child{
+					color:#f50; font-weight:bold; font-size:16px;
+				}
+			}
+			div{
+				position:absolute; top:33px; left:0; width:472px; height:80px; display:block;
+				border:1px solid #ddd; text-align:center; line-height:80px; display:none;
+				background:#fff; border-top:0; color:#f50; z-index:1;
+			}
+		}
+		li:first-child:hover{
+			padding:0; margin-top:2px; 
+			.h_top_li1_a1{
+			    margin-right:2px;border:1px solid #ddd; padding:6px 10px 9px 12px; border-bottom:1px solid #fff;
+				position:relative; z-index:1;background:#fff;
+			}
+			div{
+				display:block;
+			}
+			em{
+				padding:7px 0 0 0px;
+			}
+		}
+		.h_top_li2{
+			position:relative;z-index:1;
+			span{
+				display:block; width:8px; height:4px; background:url(../img/idnex_icon.png) -148px -503px;
+				float:right; margin-left:10px; margin-top:6px;
+			}
+			ul{
+				position:absolute; top:30px; background:#fff; display:none; width:94px; left:2px;
+				li{
+					margin:0;padding:0;height:30px; line-height:30px;text-indent:12px;
+				}
+			}
+		}
+		.h_top_li2:hover{
+			padding:0; margin-top:2px; 
+			.h_top_li2_a1{
+			    margin:0 2px;border:1px solid #ddd; padding:6px 10px 9px 10px; border-bottom:1px solid #fff;
+				position:relative; z-index:1;background:#fff; 
+			}
+			span{
+				background-position: -148px -496px;
+			}
+			em{
+				padding:7px 0 0 0px;
+			}
+			ul{
+				border:1px solid #ddd; display:block;
+				li{
+					margin-top:0px;
+				}
+			}
+		}
+		li:last-child{
+			border:0; position:relative; padding-right:13px;
+			span{
+				display:block; width:8px; height:4px; background:url(../img/idnex_icon.png) -148px -503px;
+				float:right; margin-left:10px; margin-top:6px;
+			}
+			ul{
+				position:absolute; top:30px; background:#fff; display:none; width:94px; left:2px; z-index:1;
+				li{
+					margin:0;padding:0;height:30px; line-height:30px;text-indent:12px;
+				}
+			}
+		}
+		li:last-child:hover{
+			padding:0; margin-top:2px; 
+			.h_top_li5_a1{
+			    margin:0 2px;border:1px solid #ddd; padding:6px 10px 9px 10px; border-bottom:1px solid #fff;
+				position:relative; z-index:1;background:#fff;
+			}
+			span{
+				background-position: -148px -496px;
+			}
+			em{
+				padding:7px 0 0 0px;
+			}
+			ul{
+				border:1px solid #ddd; display:block;
+				li{
+					margin-top:0px;
+				}
+			}
+		}
+	}
+}
+//end
+//头部search start
+.search{
+	width:100%;position:relative; padding-bottom:17px;
+	.h_logo{
+		width:200px; height:66px; background:url(../img/idnex_icon.png) -117px -120px; float:left;
+		margin:24px 0 0 24px;
+	}
+	.olympic{
+		float:left; display:block; margin:24px 0 0 72px;
+	}
+	.search1{
+		margin:30px 0 0 69px; float:left;
+		form{
+			input{
+				width:396px; height:30px; border:2px solid #f50; float:left;
+			}
+			a{
+				float:left;width:100px; height:34px; line-height:34px; text-align:center; font-size:18px;
+				background:#f50; color:#fff;
+			}
+		}
+		ul{
+			li{
+				float:left; padding-right:20px; font-size:12px; line-height:22px;
+			}
+		}
+	}
+	.weixin{
+		float:right; position:absolute; top:20px; right:0;
+		a{
+			display:block; width:136px; height:119px; background:url(../img/weixin.jpg); 
+		}
+	}
+}
+// end
+//头部nav start
+.nav{
+	border-bottom:3px solid #f50;
+	ul{
+		margin-left:262px;
+		li{
+			float:left; padding:0 20px; line-height:32px;
+		}
+		li:hover{
+			background:#F9E6E6;
+			a{
+				color:#000;
+			}
+		}
+	}
+}
+// end
+// banner start
+.banner{
+	width:100%;margin:0 auto; position:relative;
+	.carousel{
+		margin:0 auto; width:780px;
+		img{
+			display:block;
+		}
+	}
+	.classify{
+		position:absolute; width:218px; height:558px;top:0; left:22px; background:#fff; border:1px solid #ddd;
+		.c_list{
+			.c_list_li{
+				width:197px; height:79px; border-bottom:1px solid #ddd; padding-left:21px;
+				p{
+					font-size:16px; color:#000;padding-top:17px; display:block; 
+					span{
+						float:left;width:28px; height:12px; background:url(../img/idnex_icon.png) -3px -409px;
+						margin:2px 10px 0 0;
+					}
+				}
+				.c_list1{
+					padding-top:17px;
+					li{
+						float:left; font-size:12px; color:#666; padding-right:8px;
+					}
+				}
+				.sports{
+					width:780px; height:414px; border:1px solid #ddd;background:#fff; position:absolute; left:218px; top:-1px;
+					.spt_img1{
+						float:right; padding-top:58px;
+						a{
+							display:block; background:url(../img/a1.jpg); width:235px; height:355px;
+						}
+					}
+					.spt_list1{
+						padding-left:19px; width:500px; float:left;
+						.spt_list1_li{
+							p{
+								font-size:12px; font-weight:bold; padding-bottom:5px; border-bottom:1px dashed #ccc;
+							}
+							ul{
+								li{
+									float:left; padding:10px 13px 8px 0; font-size:12px; color:#666;
+								}
+								li:first-child{
+									text-indent:20px;
+								}
+							}
+						}
+						li:first-child{
+							p{
+								padding-top:35px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
